@@ -26,11 +26,9 @@ Hi, here are some rules to carry out this story oav;
 
 > Don't forget, there is no useless question :-)
 
-You **MUST** return the project on Friday January, 15 at 12:00 pm by sending an MP on Teams with the link of your github repo.<br />
+You **MUST** return the project on Friday February, 03 at 23:42 pm by sending an MP on Teams with the link of your github repo.<br />
 
 Your repository **MUST** contain the totality of your source files, but no useless files (node_modules, temp files, log files,...).
-
-## <a name='overview'>🐱 Overview</a>
 
 
 ## <a name='story'>🐨 Story</a>
@@ -45,7 +43,7 @@ Aillumette is a game based on matches.
 
 ### = Sample
 
-> With node.js (but language-free)
+> With node.js 
 
 ```sh
 $ node ailumette
@@ -301,7 +299,6 @@ I know you love that, well you can in bulk:
 * Change the number of lines.
 * Add any graphical version.
 * Have the choice between several difficulty levels.
-
 
 ## <a name='credits'>🐵 Credits</a>
 
