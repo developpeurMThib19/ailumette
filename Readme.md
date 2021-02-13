@@ -3,7 +3,7 @@
 * [Rules](#rules)
 * [Overview](#overview)
 * [Story](#story)
-* [Postlude](#postlude)
+* [Cross](#cross)
 * [Bonus](#bonus)
 * [Credits](#credits)
 
@@ -11,7 +11,7 @@
 
 Hi, here are some rules to carry out this story oav;
 
-* You **MUST** create a git repository named `pp-ailumette`
+* You **MUST** create a git repository named `cross-ailumette`
 * You **MUST** create a file called `.author.json` with your fullname
 
 ```sh
@@ -26,10 +26,9 @@ Hi, here are some rules to carry out this story oav;
 
 > Don't forget, there is no useless question :-)
 
-You **MUST** return the project on Friday February, 03 at 23:42 pm by sending an MP on Teams with the link of your github repo.<br />
+You **MUST** return the project on Sunday February, 21 at 23:42 pm by sending an MP on Teams with the link of your github repo.<br />
 
 Your repository **MUST** contain the totality of your source files, but no useless files (node_modules, temp files, log files,...).
-
 
 ## <a name='story'>🐨 Story</a>
 
@@ -292,12 +291,34 @@ The goal of the project is to make a program that we can play against.
 - In case of wrong entry to indicate the number of matches to be removed, it is necessary re-display Line: and it's up to the player to re-enter the line on which
 he wants to play.
 
+## <a name='cross'>🐝 Cross</a>
+
+Now that your project, work well, you must add a gui option ;
+The project must be launch like this:
+
+```sh
+> node ailumette --gui
+```
+
+Then, an app using [**Electron JS**](https://www.electronjs.org/) must be open.
+
+### Tips 1
+
+Electron allow you to create real computer app using Javascript. You don't know yet the way it works but you will with thi exercise ;)
+
+### Tips 2
+
+The ui libraryis free: React.js, Vue.js or anything else
+
+### Tips 3
+
+Try to share a lot of commons code between the cli version (terminal) and the gui
+
 ## <a name='bonus'>🦄 Bonus</a>
 
 I know you love that, well you can in bulk:
 
 * Change the number of lines.
-* Add any graphical version.
 * Have the choice between several difficulty levels.
 
 ## <a name='credits'>🐵 Credits</a>
