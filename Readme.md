@@ -15,7 +15,7 @@ Hi, here are some rules to carry out this story oav;
 * You **MUST** create a file called `.author.json` with your fullname
 
 ```sh
-~/ts-baratie ❯❯❯ cat -e .author.json
+~/ailumette ❯❯❯ cat -e .author.json
 {
   "fullname" : "John H. Conway"
 }$
